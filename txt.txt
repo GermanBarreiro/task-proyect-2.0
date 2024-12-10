@@ -1,6 +1,5 @@
-Abre un navegador web y ve a http://localhost:8080/h2-console.
-Usa la URL de conexión jdbc:h2:mem:testdb, el usuario sa, y la contraseña password (o la que hayas configurado en application.properties).
+corres el archivo application.java
 
-INSERT INTO task (title, description, completed) VALUES ('Tarea 1', 'Descripción de la tarea 1', false);
-INSERT INTO task (title, description, completed) VALUES ('Tarea 2', 'Descripción de la tarea 2', true);
-INSERT INTO task (title, description, completed) VALUES ('Tarea 3', 'Descripción de la tarea 3', false);
+Abre un navegador web y ve a http://localhost:8080/h2-console.
+Usa la URL de conexión jdbc:h2:mem:testdb, el usuario sa, y la contraseña ¨password¨.
+y luego probar en postman 
